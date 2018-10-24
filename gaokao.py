@@ -93,7 +93,8 @@ new_data['重点学科(个)'].value_counts().plot.bar(ax=axarr[0][1])
 axarr[0][1].set_title("重点学科数量")
 new_data['博士点（个）'].value_counts().plot.bar(ax=axarr[1][0])
 axarr[1][0].set_title("博士数量")
-new_data['硕士点（个）'].value_counts().plot.bar(ax=axarr[1][1])
+new_data['2015年平均线'].value_counts().plot.bar(ax=axarr[1][1])
+#new_data['硕士点（个）'].value_counts().plot.bar(ax=axarr[1][1])
 axarr[1][1].set_title("硕士数量")
 #plt.show()
 
@@ -102,6 +103,9 @@ axarr[1][1].set_title("硕士数量")
 #print(new_data['重点学科(个)'].describe())#[0,81]
 #print(new_data['博士点（个）'].describe())#[0,283]
 #print(new_data['硕士点（个）'].describe())#[0,345]
+
+
+plt.show()
 
 
 
